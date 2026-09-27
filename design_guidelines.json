@@ -1,0 +1,50 @@
+{
+  "typography": {
+    "heading_font": "Plus Jakarta Sans, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base text-slate-600 leading-relaxed"
+    }
+  },
+  "colors": {
+    "primary": "#2563EB",
+    "primary_hover": "#1D4ED8",
+    "accent_blue": "#3B82F6",
+    "cobalt": "#1E40AF",
+    "graphite": "#0F172A",
+    "crisp_white": "#FFFFFF",
+    "background_light": "#F8FAFC",
+    "border_subtle": "#E2E8F0"
+  },
+  "component_path": "/app/frontend/src/App.js",
+  "instructions_to_main_agent": "Build a polished responsive marketing landing page for FocusNest using React, Tailwind CSS, and Lucide icons. Implement navigation with anchors, hero section with high-impact CTAs and live focus mockup, interactive feature tabs/cards, 3-step 'How It Works' workflow, student social proof testimonials, simple Free vs Pro pricing tables, final CTA, and a complete responsive footer. Adhere strictly to the crisp white, cobalt blue, and graphite color palette with generous spacing, glassmorphism headers, and accessibility standards with data-testid attributes on all interactive elements.",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic outputs. Make creative, distinctive frontends.",
+    "Do not use dark colors as gradients.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition (e.g. transition: all).",
+    "You MUST NOT center align the app container (.App text-align center).",
+    "Always use modern button styles like pill-shaped or sharp button with interaction animations.",
+    "NEVER use AI assistant emoji characters like 🤖🧠💭💡🔮🎯 for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, entrance animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "All interactive and key informational elements MUST include a data-testid attribute.",
+    "You have .js files not .tsx file, share guidelines for .js files."
+  ],
+  "image_urls": [
+    {
+      "category": "Hero & Library Study",
+      "url": "https://images.unsplash.com/photo-1741699428220-65f37f3fbbcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3R1ZHlpbmclMjBsYXB0b3AlMjBsaWJyYXJ5JTIwZm9jdXN8ZW58MHx8fHwxNzkwNDg5MTQ1fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Student studying intently in a quiet library environment with warm lighting"
+    }
+  ],
+  "grids": {
+    "mode": "Tetris and Bento grid",
+    "gap": "gap-8 lg:gap-12",
+    "columns": "grid-cols-1 md:grid-cols-3 lg:grid-cols-12"
+  }
+}

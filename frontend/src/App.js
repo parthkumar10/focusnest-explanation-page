@@ -67,13 +67,13 @@ function App() {
           <div className="dashboard-window">
             <div className="window-bar"><div className="window-dots"><i /><i /><i /></div><span>focusnest / today</span><CircleUserRound size={18} /></div>
             <div className="dashboard-content">
-              <div className="dash-top"><div><p className="dash-kicker">THURSDAY, OCTOBER 24</p><h3>Good morning, Maya <span>✦</span></h3></div><button className="small-plus" data-testid="dashboard-add-session-button">+</button></div>
+              <div className="dash-top"><div><p className="dash-kicker">THURSDAY, OCTOBER 24</p><h3>Good morning, Parth <span>✦</span></h3></div><button className="small-plus" data-testid="dashboard-add-session-button">+</button></div>
               <div className="focus-card" data-testid="dashboard-focus-card"><div className="focus-card-top"><span className="live-pill"><i /> READY TO FOCUS</span><span className="card-more">···</span></div><div className="timer-display">25<span>:00</span></div><p>Deep work session</p><button className="dashboard-start" onClick={() => scrollTo("final-cta")} data-testid="dashboard-start-session-button"><Play size={13} fill="currentColor" /> Start session</button></div>
               <div className="dash-grid"><div className="mini-stat"><span className="stat-icon blue-icon"><Clock3 size={15} /></span><div><small>Focused today</small><strong>1h 42m</strong></div><span className="trend">+18%</span></div><div className="mini-stat"><span className="stat-icon green-icon"><Zap size={15} fill="currentColor" /></span><div><small>Current streak</small><strong>6 days</strong></div><span className="trend">Best!</span></div></div>
               <div className="week-card"><div className="week-head"><span>This week</span><span className="week-total">8h 24m <ChevronDown size={14} /></span></div><div className="bars"><span style={{ height: "38%" }} /><span style={{ height: "65%" }} /><span style={{ height: "48%" }} /><span className="today-bar" style={{ height: "82%" }} /><span style={{ height: "55%" }} /><span style={{ height: "31%" }} /><span style={{ height: "18%" }} /></div><div className="day-labels"><span>M</span><span>T</span><span>W</span><span>Th</span><span>F</span><span>S</span><span>S</span></div></div>
             </div>
           </div>
-          <div className="float-tag focus-tag"><span className="tag-check"><Check size={13} /></span><div><b>Session complete</b><small>Nice work, Maya</small></div></div>
+          <div className="float-tag focus-tag"><span className="tag-check"><Check size={13} /></span><div><b>Session complete</b><small>Nice work, Parth</small></div></div>
           <div className="float-tag streak-tag"><span>✦</span><div><b>6 day streak</b><small>Keep it going</small></div></div>
         </div>
       </section>
